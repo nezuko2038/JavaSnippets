@@ -5,6 +5,7 @@ import java.awt.GraphicsEnvironment;
 
 /**
  *
+ * @since 2019-04-12
  * @author Nezu Mariko<nezuko2038@gmail.com>
  *
  */
@@ -14,6 +15,7 @@ public class FontList {
 		Font fonts[] = ge.getAllFonts();
 		for (Font f : fonts) {
 			System.out.println(f.getName());
+
 		}
 
 	}
